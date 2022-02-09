@@ -1,0 +1,58 @@
+body{
+    position: absolute;
+    margin: 0px;
+}
+
+.canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.slide{
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg) translateX(-100vh);
+    transform-origin: bottom left;
+}
+
+.one{
+    background-color: rgba(41, 78, 60, 0);
+    color: white;
+
+}
+
+.two{
+    background-color: rgb(130, 221, 176);
+
+}
+
+.three{
+    background-color: rgb(113, 202, 135, 0.5);
+}
+
+.four{
+    background-color: rgb(183, 219, 136, 0.8);
+}
+
+.outer-wrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
