@@ -1,3 +1,3 @@
 # atmic8.github.io
-Earth Texture
+Earth texture Source:
 https://www.solarsystemscope.com/textures/
